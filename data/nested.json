@@ -1,0 +1,74 @@
+{
+  "project": "Positron sample project",
+  "version": 1,
+  "stations": [
+    {
+      "name": "Harbour",
+      "location": {
+        "lat": 45.2773,
+        "lon": -76.3882
+      },
+      "sensors": [
+        "temperature",
+        "rain",
+        "wind"
+      ]
+    },
+    {
+      "name": "Hilltop",
+      "location": {
+        "lat": 43.5565,
+        "lon": -76.8496
+      },
+      "sensors": [
+        "temperature",
+        "rain",
+        "wind"
+      ]
+    },
+    {
+      "name": "Riverside",
+      "location": {
+        "lat": 44.5199,
+        "lon": -78.6161
+      },
+      "sensors": [
+        "temperature",
+        "rain",
+        "wind"
+      ]
+    },
+    {
+      "name": "Airport",
+      "location": {
+        "lat": 45.5122,
+        "lon": -78.5448
+      },
+      "sensors": [
+        "temperature",
+        "rain",
+        "wind"
+      ]
+    },
+    {
+      "name": "Downtown",
+      "location": {
+        "lat": 43.9438,
+        "lon": -78.6957
+      },
+      "sensors": [
+        "temperature",
+        "rain",
+        "wind"
+      ]
+    }
+  ],
+  "settings": {
+    "units": {
+      "temperature": "C",
+      "rain": "mm"
+    },
+    "active": true,
+    "tags": null
+  }
+}
