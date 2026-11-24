@@ -6,14 +6,14 @@ Small sample files for trying out each part of [Positron](https://positron.posit
 
 1. In Positron, open the **New** menu in the Top Bar and select **New Folder from Git...**.
 2. Enter `https://github.com/sharon-wang/positron-sample-project` as the Git repository URL and select **OK**. Positron clones the repo and opens the folder.
-3. For Python, run **Python: Create Environment...** from the Command Palette. Choose **uv** (or **Venv**), pick a Python version and if prompted, check `requirements.txt` so the packages get installed.
-4. For R, if htmltools is missing, run `install.packages("htmltools")` in an R console.
+3. For Python, run **Python: Create Environment...** from the Command Palette. Choose **uv** (or **Venv**) and pick a Python version. With Venv, also check `requirements.txt` so the packages get installed.
+4. For R, if htmltools is missing, run `install.packages("htmltools")` in an R console. If R asks to use a personal library instead, answer `yes`.
 
 No Git? On GitHub, select **Code** > **Download ZIP**, unzip it, and drag the folder onto the Explorer in Positron (or use **Upload...** from the Explorer's right-click menu). Then open the folder with **File** > **Open Folder...**.
 
 ## Running the files
 
-Open a `.py` or `.R` file and select the run button at the top right of the editor (or press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>, <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd> on Mac) to run the whole file in the Console.
+Open a `.py` or `.R` file and select the run button at the top left of the editor, just below the tab (or press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>, <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd> on Mac) to run the whole file in the Console.
 `notebook.ipynb` opens in the Positron Notebook editor, where **Run All Cells** runs it.
 
 ## What each file is for
